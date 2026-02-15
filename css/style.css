@@ -237,6 +237,26 @@ a:hover {
   margin-top: 0.5rem;
 }
 
+.publication-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+}
+
+.publication-type.international {
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.1);
+}
+
+.publication-authors strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 /* ===== Experience (Timeline) ===== */
 .timeline {
   position: relative;

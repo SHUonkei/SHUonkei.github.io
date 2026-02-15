@@ -1,10 +1,12 @@
 [
   {
     "platform": "AtCoder",
-    "detail": "レート1115"
+    "category": "Competitive Programming",
+    "detail": "Rating 1115"
   },
   {
     "platform": "Signate",
+    "category": "Machine Learning Competition",
     "medals": [
       { "type": "silver", "count": 2 },
       { "type": "bronze", "count": 3 }

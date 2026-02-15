@@ -6,6 +6,12 @@ async function fetchJSON(path) {
 }
 
 // ===== Renderers =====
+function highlightMyName(authors) {
+  return authors
+    .replace(/(Shuitsu Koyama)/g, '<strong>$1</strong>')
+    .replace(/(小山修生)/g, '<strong>$1</strong>');
+}
+
 function renderPublications(data) {
   const container = document.getElementById('publications-list');
   if (!data.length) return;
@@ -15,9 +21,10 @@ function renderPublications(data) {
   container.innerHTML = sorted.map(pub => `
     <div class="publication-item ${pub.highlight ? 'highlight' : ''}">
       <div class="publication-title">${pub.title}</div>
-      <div class="publication-authors">${pub.authors}</div>
-      ${pub.venue ? `<div class="publication-venue">${pub.venue}</div>` : ''}
+      <div class="publication-authors">${highlightMyName(pub.authors)}</div>
+      ${pub.venue ? `<div class="publication-venue">${pub.venue}${pub.note ? `, ${pub.note}` : ''}</div>` : ''}
       <span class="publication-year">${pub.year}</span>
+      ${pub.type === 'international' ? '<span class="publication-type international">International</span>' : ''}
     </div>
   `).join('');
 }
