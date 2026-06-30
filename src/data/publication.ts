@@ -15,6 +15,16 @@ export const publicationData: Publication[] = [
   {
     year: "2026",
     conference: "arXiv",
+    title:
+      "Rigel: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation",
+    authors:
+      "Shuitsu Koyama, Kazuki Matsuda, Yuiga Wada, Shinnosuke Hirano, Daichi Yashima, Komei Sugiura",
+    paperUrl: "https://arxiv.org/abs/2606.29997",
+    tldr: "Preprint",
+  },
+  {
+    year: "2026",
+    conference: "arXiv",
     title: "MLLM-as-a-Judge Exhibits Model Preference Bias",
     authors: "Shuitsu Koyama, Yuiga Wada, Daichi Yashima, Komei Sugiura",
     paperUrl: "https://arxiv.org/abs/2604.11589",
