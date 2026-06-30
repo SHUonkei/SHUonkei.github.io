@@ -20,6 +20,7 @@ export const publicationData: Publication[] = [
     authors:
       "Shuitsu Koyama, Kazuki Matsuda, Yuiga Wada, Shinnosuke Hirano, Daichi Yashima, Komei Sugiura",
     paperUrl: "https://arxiv.org/abs/2606.29997",
+    imageUrl: "/images/rigel.png",
     tldr: "Preprint",
   },
   {
