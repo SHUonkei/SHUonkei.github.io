@@ -4,6 +4,7 @@ export interface Publication {
   title: string;
   authors: string;
   paperUrl?: string;
+  slidesUrl?: string;
   codeUrl?: string;
   bibtex?: string;
   tldr?: string;
@@ -50,6 +51,8 @@ export const publicationData: Publication[] = [
     authors:
       "Shuntaro Suzuki, Shuitsu Koyama, Shinnosuke Hirano, Shunya Nagashima",
     paperUrl: "https://arxiv.org/abs/2602.03858",
+    slidesUrl:
+      "https://speakerdeck.com/neurogica/penguin-general-vital-sign-reconstruction-from-ppg-with-flow-matching-state-space-models-icassp-2026",
     imageUrl: "/images/penguin.png",
     award: "🎤 Oral Presentation",
   },
@@ -61,6 +64,8 @@ export const publicationData: Publication[] = [
     authors:
       "Shunya Nagashima, Shuntaro Suzuki, Shuitsu Koyama, Shinnosuke Hirano",
     paperUrl: "https://arxiv.org/abs/2602.05389",
+    slidesUrl:
+      "https://speakerdeck.com/neurogica/decompssm-a-decomposition-based-state-space-model-for-multivariate-time-series-forecasting-icassp-2026",
     imageUrl: "/images/decomp.png",
     award: "🎤 Oral Presentation",
   },
