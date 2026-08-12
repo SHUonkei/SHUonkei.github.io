@@ -1,6 +1,6 @@
 import { EducationEntry } from "@/components/education-entry";
 import { educationData } from "@/data/education";
-import { PublicationEntry } from "@/components/publication-entry";
+import { PublicationGroup } from "@/components/publication-group";
 import { publicationData } from "@/data/publication";
 import { ProfileSection } from "@/components/profile-section";
 import { aboutMe } from "@/data/aboutme";
@@ -88,15 +88,25 @@ export default function Home() {
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
                           Publications
                         </h2>
-                        <div className="space-y-12">
-                          {publicationData.map((publication, index) => (
-                            <div key={index}>
-                              <PublicationEntry publication={publication} />
-                              {index < publicationData.length - 1 && (
-                                <div className="h-px bg-zinc-200 my-8" />
-                              )}
-                            </div>
-                          ))}
+                        <div className="space-y-16">
+                          <PublicationGroup
+                            title="International Conference"
+                            publications={publicationData.filter(
+                              (p) => p.venueType === "international",
+                            )}
+                          />
+                          <PublicationGroup
+                            title="Domestic Conference"
+                            publications={publicationData.filter(
+                              (p) => p.venueType === "domestic",
+                            )}
+                          />
+                          <PublicationGroup
+                            title="Preprint"
+                            publications={publicationData.filter(
+                              (p) => p.venueType === "preprint",
+                            )}
+                          />
                         </div>
                       </section>
                     )
