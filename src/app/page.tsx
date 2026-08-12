@@ -12,6 +12,9 @@ import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
 import { AwardEntry } from "@/components/award-entry";
 import { awardData } from "@/data/awards";
+import { OtherEntry } from "@/components/other-entry";
+import { otherData } from "@/data/others";
+import { serviceData } from "@/data/service";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
@@ -140,6 +143,36 @@ export default function Home() {
                         <div className="space-y-12">
                           {portfolioData.map((portfolio, index) => (
                             <PortfolioEntry key={index} portfolio={portfolio} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Service:
+                  return (
+                    serviceData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Academic Service
+                        </h2>
+                        <div className="space-y-12">
+                          {serviceData.map((service, index) => (
+                            <OtherEntry key={index} other={service} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Other:
+                  return (
+                    otherData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Other
+                        </h2>
+                        <div className="space-y-12">
+                          {otherData.map((other, index) => (
+                            <OtherEntry key={index} other={other} />
                           ))}
                         </div>
                       </section>

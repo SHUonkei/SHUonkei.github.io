@@ -64,6 +64,30 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
+    conference: "MIRU",
+    title:
+      "To What Extent Does MLLM-as-a-Judge Exhibit Cross-Model Preference Bias?",
+    authors: "Shuitsu Koyama, Yuiga Wada, Daichi Yashima, Komei Sugiura",
+    imageUrl: "/images/philautia.png",
+    award: "学生奨励賞 (Student Encouragement Award)",
+  },
+  {
+    year: "2026",
+    conference: "MIRU",
+    title: "Speculative Decodingに基づく高速な画像キャプション向け自動評価尺度",
+    authors: "野口拓海, 和田唯我, 小山修生, 杉浦孔明",
+    imageUrl: "/images/kaus.png",
+  },
+  {
+    year: "2026",
+    conference: "MIRU",
+    title:
+      "Binomial Deviance ResidualによるMLLM-as-a-Judgeのモデル選好の解析",
+    authors: "細屋達稀, 小山修生, 八島大地, 和田唯我, 杉浦孔明",
+    imageUrl: "/images/bdr.png",
+  },
+  {
+    year: "2026",
     conference: "人工知能学会全国大会 (JSAI)",
     title: "MLLM-as-a-Judgeにおける自己選好バイアスの軽減",
     authors: "小山修生, 和田唯我, 八島大地, 杉浦孔明",
