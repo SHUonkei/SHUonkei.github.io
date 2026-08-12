@@ -51,6 +51,7 @@ export const publicationData: Publication[] = [
       "Shuntaro Suzuki, Shuitsu Koyama, Shinnosuke Hirano, Shunya Nagashima",
     paperUrl: "https://arxiv.org/abs/2602.03858",
     imageUrl: "/images/penguin.png",
+    award: "Oral",
   },
   {
     year: "2026",
@@ -61,6 +62,7 @@ export const publicationData: Publication[] = [
       "Shunya Nagashima, Shuntaro Suzuki, Shuitsu Koyama, Shinnosuke Hirano",
     paperUrl: "https://arxiv.org/abs/2602.05389",
     imageUrl: "/images/decomp.png",
+    award: "Oral",
   },
   {
     year: "2026",
