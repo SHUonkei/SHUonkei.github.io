@@ -44,4 +44,10 @@ export const otherData: Other[] = [
       },
     ],
   },
+  {
+    title: "数学オリンピック 夏季セミナー 2019",
+    description:
+      "参加（論文選考通過）・『ガロア理論講義』（足立恒雄）を輪読",
+    url: "https://www.imojp.org/archive/mo2019/seminar2019/index.html",
+  },
 ];
