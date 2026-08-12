@@ -26,14 +26,14 @@ export const otherData: Other[] = [
         date: "2025.07.25 – 2025.08.26",
       },
       {
-        name: "【SOTA】Motion Decoding Using Biosignals スケートボードトリック分類チャレンジ",
-        result: "🥉 Bronze medal",
-        date: "2024.12.20 – 2025.07.08",
-      },
-      {
         name: "テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ",
         result: "🥈 Silver medal",
         date: "2024.09.25 – 2024.11.01",
+      },
+      {
+        name: "Motion Decoding Using Biosignals",
+        result: "🥉 Bronze medal",
+        date: "2024.07.25 – 2024.10.28",
       },
       {
         name: "RAG-1グランプリ",
