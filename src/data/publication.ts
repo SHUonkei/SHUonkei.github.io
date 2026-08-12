@@ -55,6 +55,7 @@ export const publicationData: Publication[] = [
       "https://speakerdeck.com/neurogica/penguin-general-vital-sign-reconstruction-from-ppg-with-flow-matching-state-space-models-icassp-2026",
     imageUrl: "/images/penguin.png",
     award: "🎤 Oral Presentation",
+    tldr: "Acceptance rate 41.3%",
   },
   {
     year: "2026",
@@ -68,6 +69,7 @@ export const publicationData: Publication[] = [
       "https://speakerdeck.com/neurogica/decompssm-a-decomposition-based-state-space-model-for-multivariate-time-series-forecasting-icassp-2026",
     imageUrl: "/images/decomp.png",
     award: "🎤 Oral Presentation",
+    tldr: "Acceptance rate 41.3%",
   },
   {
     year: "2026",
@@ -77,6 +79,7 @@ export const publicationData: Publication[] = [
     authors: "Shuitsu Koyama, Yuiga Wada, Daichi Yashima, Komei Sugiura",
     imageUrl: "/images/philautia.png",
     award: "学生奨励賞 (Student Encouragement Award)",
+    tldr: "OS1E-03 (査読有, 採択率 33.5%)",
   },
   {
     year: "2026",
