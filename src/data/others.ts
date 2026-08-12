@@ -8,6 +8,7 @@ export interface Other {
   title: string;
   description?: string;
   url?: string;
+  logoUrl?: string;
   items?: OtherItem[];
 }
 
@@ -16,6 +17,7 @@ export const otherData: Other[] = [
     title: "AtCoder",
     description: "Highest rating 1115",
     url: "https://atcoder.jp/users/rafi2",
+    logoUrl: "/images/logos/atcoder.png",
   },
   {
     title: "SIGNATE",

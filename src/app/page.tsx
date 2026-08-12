@@ -12,6 +12,7 @@ import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
 import { AwardEntry } from "@/components/award-entry";
 import { awardData } from "@/data/awards";
+import { fellowshipData } from "@/data/fellowships";
 import { OtherEntry } from "@/components/other-entry";
 import { otherData } from "@/data/others";
 import { serviceData } from "@/data/service";
@@ -123,11 +124,26 @@ export default function Home() {
                     awardData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Awards & Fellowships
+                          Awards
                         </h2>
                         <div className="space-y-12">
                           {awardData.map((award, index) => (
                             <AwardEntry key={index} award={award} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Fellowship:
+                  return (
+                    fellowshipData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Fellowships
+                        </h2>
+                        <div className="space-y-12">
+                          {fellowshipData.map((fellowship, index) => (
+                            <AwardEntry key={index} award={fellowship} />
                           ))}
                         </div>
                       </section>
