@@ -30,6 +30,5 @@ export const aboutMe: AboutMe = {
   githubUsername: "SHUonkei",
   linkedinUsername: "shuitsu-koyama-a97845277",
   funDescription: "AtCoder: rating 1115 · Signate: 2 silver, 2 bronze",
-  // Add a photo at public/images/profile.jpg and uncomment the next line:
-  // imageUrl: "/images/profile.jpg",
+  imageUrl: "/images/profile.jpg",
 };
