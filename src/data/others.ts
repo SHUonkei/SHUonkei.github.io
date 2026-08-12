@@ -22,22 +22,22 @@ export const otherData: Other[] = [
     items: [
       {
         name: "Axell AI Contest 2025",
-        result: "Bronze medal",
+        result: "🥉 Bronze medal",
         date: "2025",
       },
       {
         name: "【SOTA】Motion Decoding Using Biosignals スケートボードトリック分類チャレンジ",
-        result: "Bronze medal",
+        result: "🥉 Bronze medal",
         date: "2025",
       },
       {
         name: "テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ",
-        result: "Silver medal",
+        result: "🥈 Silver medal",
         date: "2024.09.25 – 2024.11.01",
       },
       {
         name: "RAG-1グランプリ",
-        result: "Silver medal",
+        result: "🥈 Silver medal",
         date: "2024.09.05 – 2024.10.10",
       },
     ],

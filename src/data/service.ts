@@ -11,4 +11,15 @@ export const serviceData: Other[] = [
       },
     ],
   },
+  {
+    title: "Technical Reviewer (Books)",
+    items: [
+      {
+        name: "コンピュータシステムの理論と実装 第2版",
+      },
+      {
+        name: "ゼロから作るDeep Learning ❻",
+      },
+    ],
+  },
 ];

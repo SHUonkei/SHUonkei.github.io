@@ -33,6 +33,12 @@ export const awardData: Award[] = [
   },
   {
     year: "2024",
+    title: "KLL-ONE 学生コンテスト 2024 優秀賞",
+    organization: "慶應義塾大学理工学部 KLL",
+    url: "https://sites.google.com/view/kllincubation",
+  },
+  {
+    year: "2024",
     title: "慶應義塾維持会奨学金",
     organization: "慶應義塾",
     url: "https://kikin.keio.ac.jp/ijikai/shogaku/",
