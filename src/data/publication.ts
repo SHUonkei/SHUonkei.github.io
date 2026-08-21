@@ -18,6 +18,18 @@ export interface Publication {
 export const publicationData: Publication[] = [
   {
     year: "2026",
+    conference: "EMNLP",
+    venueType: "international",
+    title:
+      "Rigel: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation",
+    authors:
+      "Shuitsu Koyama, Kazuki Matsuda, Yuiga Wada, Shinnosuke Hirano, Daichi Yashima, Komei Sugiura",
+    paperUrl: "https://arxiv.org/abs/2606.29997",
+    imageUrl: "/images/rigel.png",
+    tldr: "Main Conference (acceptance rate 15.4%, h5-index 218)",
+  },
+  {
+    year: "2026",
     conference: "ICASSP",
     venueType: "international",
     title:
@@ -97,17 +109,6 @@ export const publicationData: Publication[] = [
     title: "演奏音復元のための手書き邦楽譜文字認識",
     authors: "栗田笑実花, 大山智也, 小山修生, 五十川麻理子",
     imageUrl: "/images/score.png",
-  },
-  {
-    year: "2026",
-    conference: "arXiv",
-    venueType: "preprint",
-    title:
-      "Rigel: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation",
-    authors:
-      "Shuitsu Koyama, Kazuki Matsuda, Yuiga Wada, Shinnosuke Hirano, Daichi Yashima, Komei Sugiura",
-    paperUrl: "https://arxiv.org/abs/2606.29997",
-    imageUrl: "/images/rigel.png",
   },
   {
     year: "2026",
