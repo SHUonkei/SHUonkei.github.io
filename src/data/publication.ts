@@ -26,7 +26,7 @@ export const publicationData: Publication[] = [
       "Shuitsu Koyama, Kazuki Matsuda, Yuiga Wada, Shinnosuke Hirano, Daichi Yashima, Komei Sugiura",
     paperUrl: "https://arxiv.org/abs/2606.29997",
     imageUrl: "/images/rigel.png",
-    tldr: "Main Conference (acceptance rate 15.4%, h5-index 218)",
+    tldr: "Main Conference · Acceptance rate 15.4% · h5-index 218",
   },
   {
     year: "2026",
@@ -67,7 +67,7 @@ export const publicationData: Publication[] = [
     authors: "Shuitsu Koyama, Yuiga Wada, Daichi Yashima, Komei Sugiura",
     imageUrl: "/images/philautia.png",
     award: "学生奨励賞 (Student Encouragement Award)",
-    tldr: "OS1E-03 (査読有, 採択率 33.5%)",
+    tldr: "OS1E-03 · Peer-reviewed · Acceptance rate 33.5%",
   },
   {
     year: "2026",

@@ -12,15 +12,15 @@ export function PublicationGroup({
 
   return (
     <div>
-      <h3 className="font-serif text-xs mb-8 tracking-widest uppercase text-zinc-500">
+      <h3 className="font-serif text-xs mb-6 tracking-widest uppercase text-zinc-500">
         {title}
       </h3>
-      <div className="space-y-12">
+      <div className="space-y-6">
         {publications.map((publication, index) => (
           <div key={index}>
             <PublicationEntry publication={publication} />
             {index < publications.length - 1 && (
-              <div className="h-px bg-zinc-200 my-8" />
+              <div className="h-px bg-zinc-200 my-4" />
             )}
           </div>
         ))}
