@@ -41,7 +41,7 @@ export const publicationData: Publication[] = [
       "https://speakerdeck.com/neurogica/penguin-general-vital-sign-reconstruction-from-ppg-with-flow-matching-state-space-models-icassp-2026",
     imageUrl: "/images/penguin.png",
     award: "🎤 Oral Presentation",
-    tldr: "Acceptance rate 41.3%",
+    tldr: "Acceptance rate 41.3% · h5-index 137",
   },
   {
     year: "2026",
@@ -56,7 +56,7 @@ export const publicationData: Publication[] = [
       "https://speakerdeck.com/neurogica/decompssm-a-decomposition-based-state-space-model-for-multivariate-time-series-forecasting-icassp-2026",
     imageUrl: "/images/decomp.png",
     award: "🎤 Oral Presentation",
-    tldr: "Acceptance rate 41.3%",
+    tldr: "Acceptance rate 41.3% · h5-index 137",
   },
   {
     year: "2026",
@@ -89,6 +89,7 @@ export const publicationData: Publication[] = [
     year: "2026",
     conference: "人工知能学会全国大会 (JSAI)",
     venueType: "domestic",
+    award: "全国大会優秀賞 (Annual Conference Award)",
     title: "MLLM-as-a-Judgeにおける自己選好バイアスの軽減",
     authors: "小山修生, 和田唯我, 八島大地, 杉浦孔明",
     imageUrl: "/images/mllm.png",
