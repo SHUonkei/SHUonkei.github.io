@@ -9,6 +9,12 @@ export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
   // NOTE: dates below are approximate — please verify/adjust.
   {
+    date: "September 2026",
+    title: "Rigel selected for Oral Presentation at EMNLP 2026",
+    description:
+      "\"Rigel: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation\" was selected for an oral presentation at the EMNLP 2026 Main Conference. 🎤",
+  },
+  {
     date: "August 2026",
     title: "First-author paper accepted at EMNLP 2026 Main Conference",
     description:

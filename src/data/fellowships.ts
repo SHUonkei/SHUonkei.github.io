@@ -8,6 +8,12 @@ export const fellowshipData: Award[] = [
     organization: "慶應義塾大学",
   },
   {
+    year: "2026",
+    title: "Sky大浦ICT奨学財団 奨学生",
+    organization: "公益財団法人 Sky大浦ICT奨学財団",
+    url: "https://www.sky-foundation.or.jp/",
+  },
+  {
     year: "2025",
     title: "Sky大浦ICT奨学財団 奨学生",
     organization: "公益財団法人 Sky大浦ICT奨学財団",

@@ -26,6 +26,7 @@ export const publicationData: Publication[] = [
       "Shuitsu Koyama, Kazuki Matsuda, Yuiga Wada, Shinnosuke Hirano, Daichi Yashima, Komei Sugiura",
     paperUrl: "https://arxiv.org/abs/2606.29997",
     imageUrl: "/images/rigel.png",
+    award: "🎤 Oral Presentation",
     tldr: "Main Conference · Acceptance rate 15.4% · h5-index 218",
   },
   {
