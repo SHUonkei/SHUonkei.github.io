@@ -32,6 +32,7 @@ export function PublicationEntry({
     { label: "Paper", url: publication.paperUrl },
     { label: "Slides", url: publication.slidesUrl },
     { label: "Code", url: publication.codeUrl },
+    { label: "Dataset", url: publication.datasetUrl },
     { label: "BibTeX", url: publication.bibtex },
   ].filter((link) => link.url);
 

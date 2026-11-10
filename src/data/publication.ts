@@ -9,6 +9,7 @@ export interface Publication {
   paperUrl?: string;
   slidesUrl?: string;
   codeUrl?: string;
+  datasetUrl?: string;
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
@@ -119,6 +120,7 @@ export const publicationData: Publication[] = [
     title: "MLLM-as-a-Judge Exhibits Model Preference Bias",
     authors: "Shuitsu Koyama, Yuiga Wada, Daichi Yashima, Komei Sugiura",
     paperUrl: "https://arxiv.org/abs/2604.11589",
+    datasetUrl: "https://huggingface.co/datasets/SHUonKei/vid-lepus-train",
     imageUrl: "/images/mllm.png",
   },
   {
