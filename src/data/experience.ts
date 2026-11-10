@@ -1,5 +1,5 @@
 export interface Experience {
-  date: string;
+  date?: string;
   title: string;
   company: string;
   description?: string;
@@ -10,6 +10,18 @@ export interface Experience {
 }
 
 export const experienceData: Experience[] = [
+  {
+    title: "R&D Intern",
+    company: "Sansan",
+    companyUrl: "https://jp.corp-sansan.com/",
+    logoUrl: "/images/logos/sansan.png",
+  },
+  {
+    title: "ML Engineer Intern",
+    company: "Recruit Holdings",
+    companyUrl: "https://recruit-holdings.com/",
+    logoUrl: "/images/logos/recruit.png",
+  },
   {
     date: "Sep 2024 – Present",
     title: "Intern",
